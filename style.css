@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.container{
+    background-image: url("/images/imgeEdited/interior.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    height: 20%;
+}
+.lists{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 110px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+.contact>img{
+    filter:invert(100%);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.mainElement{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80%;
+    margin: 30px 60px;
+}
+.list-items,.logo{
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    height: 50vh;
+}
+.learn{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.learn:hover{
+    background-color: #fff;
+    color: #070E1C;
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.right{
+    position:relative;
+}
+
+.card{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 350px;
+    position: relative;
+}
+.cardImage{
+    margin: 6px 15px;
+    padding: 15px 5px;
+}
+
+.cardImage>img{
+    width: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 30px;
+}
+.cardImage>p{
+    margin: 15px 30px 15px 0px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card2{
+    position: absolute;
+    top: 320px;
+    right: 400px;
+}
+
+.card2>.svggg{
+    position: absolute;
+    top: 50%;
+    left: 99.8%;
+}
+
+.card1{
+    position: relative;
+}
+.card1>.svgg{
+    position: absolute;
+    rotate: 90deg;
+    top: 133%;
+    left: 25%;
+}
