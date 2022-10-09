@@ -19,6 +19,9 @@ sir from ***Ineuron***.
 - CSS flex property
 - CSS positioning
 ***
+***[Deployed Link](
+https://project10-fsjd.netlify.app/)***
+***
 ## Feedback
 
 If you have any feedback, please reach out to me at [twitter](https://twitter.com/codewithchetan)
